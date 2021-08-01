@@ -1,29 +1,24 @@
-# vote-graph
+### 利用した技術
 
-## Project setup
-```
-yarn install
-```
+- Vue.js / Vue Router / Vuex　（JavaScript ライブラリ）
+- Chart.js / vue-chartjs　（JavaScript ライブラリ）
+- Firebase / Firestore　（Baas：Backend as a Service）
+- BootstrapVue　（CSSフレームワーク）
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+### **要件**
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+- オンラインで参加してもらっている人の意見が聞けるツール。
+- イベント主催者側のログインが必要。
+- PCで管理してスマホで回答する。
+- 投票結果がリアルタイムにグラフで表示できる。
 
-### Run your tests
-```
-yarn run test
-```
+### 機能
 
-### Lints and fixes files
-```
-yarn run lint
-```
+- アンケートの内容の登録、更新、削除。
+- 管理者登録、ログイン機能。
+- アンケートの回答フォーム。
+- 回答結果グラフ描画（リアルタイム）。
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+<br>
+
+画面イメージはこちら → [Notion](https://ossified-elephant-7c0.notion.site/1f6cb43340624a1ea0177a1c907bad31)
