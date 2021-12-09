@@ -19,6 +19,5 @@
 - アンケートの回答フォーム。
 - 回答結果グラフ描画（リアルタイム）。
 
-<br>
-
-画面イメージはこちら → [Notion](https://ossified-elephant-7c0.notion.site/1f6cb43340624a1ea0177a1c907bad31)
+### 画面イメージ
+![](https://user-images.githubusercontent.com/46856574/145413748-588dc41e-3e97-4835-a934-afd001fdb6a8.png)
