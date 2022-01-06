@@ -65,7 +65,7 @@ You need to create a project in Firebase before installation.
 4. Start local development environment.
 
    ```
-   yarn serve
+   yarn run serve
    ```
 
 <!-- ## Contribution -->
