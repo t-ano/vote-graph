@@ -47,7 +47,7 @@ You need to create a project in Firebase before installation.
 1. Get source code
 
    ```
-   git@github.com:t-aono/vote-graph.git
+   git clone git@github.com:t-aono/vote-graph.git
    ```
 
 2. Copy .env-example to create .env and set environment variables for your Firebase project.
