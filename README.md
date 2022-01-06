@@ -1,23 +1,79 @@
-### 利用した技術
+# vote-graph
 
-- Vue.js / Vue Router / Vuex　（JavaScript ライブラリ）
-- Chart.js / vue-chartjs　（JavaScript ライブラリ）
-- Firebase / Firestore　（Baas：Backend as a Service）
-- BootstrapVue　（CSSフレームワーク）
+## Overview
 
-### **要件**
+Web application that can manage questionnaires.
 
-- オンラインで参加してもらっている人の意見が聞けるツール。
-- イベント主催者側のログインが必要。
-- PCで管理してスマホで回答する。
-- 投票結果がリアルタイムにグラフで表示できる。
+## Description
+Implemented a front end so that the result is reflected in the graph at the same time as the answer by using the real-time update of Cloud Firestore.  
+On the tabulation screen, the answer results are drawn in a graph.
 
-### 機能
+## Demo
 
-- アンケートの内容の登録、更新、削除。
-- 管理者登録、ログイン機能。
-- アンケートの回答フォーム。
-- 回答結果グラフ描画（リアルタイム）。
+<!-- ## VS. -->
 
-### 画面イメージ
-![](https://user-images.githubusercontent.com/46856574/145413748-588dc41e-3e97-4835-a934-afd001fdb6a8.png)
+## Requirement
+- "bootstrap-vue": "^2.21.2",
+- "chart.js": "^2.8.0",
+- "firebase": "^8.8.0",
+- "vue": "^2.6.11",
+- "vue-chartjs": "^3.4.2",
+- "vue-router": "^3.5.2",
+- "vuex": "^3.6.2"
+
+## Usage
+- Access the administrator registration screen
+  ```
+  http://localhost:8080/register
+  ```
+- Access the administrator login screen
+  ```
+  http://localhost:8080/login
+  ```
+- Access the questionnaire management screen
+  ```
+  http://localhost:8080/questions
+  ```
+- Access to questionnaire answer screen
+  ```
+  http://localhost:8080
+  ```
+
+## Install
+
+You need to create a project in Firebase before installation.
+
+1. Get source code
+
+   ```
+   git@github.com:t-aono/vote-graph.git
+   ```
+
+2. Copy .env-example to create .env and set environment variables for your Firebase project.
+
+   ```
+   cp .env-example .env
+   ```
+
+3. Add package.
+
+   ```
+   yarn
+   ```
+
+4. Start local development environment.
+
+   ```
+   yarn serve
+   ```
+
+<!-- ## Contribution -->
+
+<!-- ## Licence -->
+
+## Author
+
+[t-aono](https://github.com/t-aono)
+
+<!-- README.md Sample -->
+<!-- https://deeeet.com/writing/2014/07/31/readme/ -->
