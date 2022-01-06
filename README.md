@@ -9,6 +9,7 @@ Implemented a front end so that the result is reflected in the graph at the same
 On the tabulation screen, the answer results are drawn in a graph.
 
 ## Demo
+![hlcVkUPm1ei8GG93lYlL1641512213-1641512313](https://user-images.githubusercontent.com/46856574/148467653-f241d062-d1c7-4109-a088-8e9cd9703a1a.gif)
 
 <!-- ## VS. -->
 
